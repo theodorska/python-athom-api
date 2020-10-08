@@ -7,6 +7,7 @@ returnURL = 'http://localhost:8080'
 # Start by getting an instance of the AthomCloudAPI, providing the client id/secret and
 # returnURL for OAUTH authentication
 api = AthomCloudAPI(clientId, clientSecret, returnURL)
+#Failed to retrieve token from: homeyLocalStorage.db
 
 # Get URL for OAUTH authentication
 # https://api.developer.athom.com/AthomCloudAPI.html#getLoginUrl
